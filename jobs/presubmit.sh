@@ -19,13 +19,14 @@ echo ">> Running ./script/check-style"
 echo ">> Running bazel fetch -k //..."
 bazel fetch -k //...
 
-exit 0
 
 
 echo "=== Bazel Build ==="
 
 echo ">> Running bazel build"
 bazel build //...
+
+exit 0
 
 echo "=== Bazel Test ==="
 
