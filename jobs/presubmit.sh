@@ -3,13 +3,12 @@
 set -e
 
 # present working directory is the root of the repo
-echo "present working dir: ${cat pwd}"
+# echo "present working dir: ${cat pwd}"
 
 echo "=== Code Check ==="
 
 echo ">> Running ./script/check-license-headers"
 ./script/check-license-headers
-
 echo ">> Running ./script/check-style"
 ./script/check-style
 
