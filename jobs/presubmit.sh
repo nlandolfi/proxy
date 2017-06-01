@@ -9,6 +9,7 @@ echo "=== Code Check ==="
 
 echo ">> Running ./script/check-license-headers"
 ./script/check-license-headers
+
 echo ">> Running ./script/check-style"
 ./script/check-style
 
