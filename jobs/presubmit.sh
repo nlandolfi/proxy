@@ -11,13 +11,15 @@ echo "=== Code Check ==="
 echo ">> Running ./script/check-license-headers"
 ./script/check-license-headers
 
-exit 0
 
 echo ">> Running ./script/check-style"
 ./script/check-style
 
+exit 0
+
 echo ">> Running bazel fetch -k //..."
 bazel fetch -k //...
+
 
 echo "=== Bazel Build ==="
 
