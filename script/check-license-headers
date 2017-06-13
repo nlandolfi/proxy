@@ -54,4 +54,5 @@ do
   fi
 done
 
-[[ ${BAD_LICENSE} == 0 ]] || echo "have invalid license headers".
+[[ ${BAD_LICENSE} == 0 ]] || echo "ERROR: have invalid license headers".
+exit $BAD_LICENSE
